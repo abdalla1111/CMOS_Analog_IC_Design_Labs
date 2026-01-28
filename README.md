@@ -1,26 +1,38 @@
----
+# CMOS Analog IC Design Labs – ITI / Dr. Hesham Omran
 
-## Analog IC Design Labs – EECE / Dr. Hesham Omran
+This repository contains my **Analog IC Design lab work**, covering **multiple labs, projects, and design challenges** using **Xschem, Ngspice, and ADT**. The labs explore **MOSFET characteristics, amplifier design, current mirrors, frequency response, and noise analysis**, culminating in full analog design projects.
 
-This section covers my lab work for Analog IC Design, 11 labs and design challenges using Xschem, Ngspice, and ADT.
+## Labs Overview
 
-### Labs Overview
+| #  | Lab / Project / Design Challenge | Key Focus |
+|----|---------------------------------|-----------|
+| 1  | LPF Simulation and MOSFET Characteristics | Low-pass filter behavior, MOSFET I-V characteristics |
+| 2  | Common Source Amplifier | Basic CS amplifier, gain, input/output resistance |
+| 3  | Cascode Amplifier | High-gain amplifier, bandwidth optimization |
+| 4  | Common Drain Frequency Response | Source follower, voltage gain, input/output impedance |
+| 5  | Simple vs Wide Swing Cascode Current Mirror | Current mirror design, output resistance improvement |
+| 6  | Differential Amplifier | Differential pair, differential gain, CMRR |
+| 7  | 5T OTA Design | Operational transconductance amplifier design with 5 transistors |
+| 8  | Negative Feedback | Feedback techniques, stability, gain linearization |
+| 9  | Project 01 | Integrated analog design project using previous concepts |
+| 10 | Two-Stage Miller OTA | Two-stage amplifier with Miller compensation, stability |
+| 11 | Noise Simulation | Noise analysis, SNR, and performance evaluation |
+| 12 | Project 02 | Advanced analog project, multi-stage OTA design |
+| 13 | Fully-Differential Folded Cascode OTA | High-performance differential amplifier design |
+| 14 | Design Challenge 1: Digitally Controlled Variable Gain Amplifier (VGA) | Variable gain design using digital control |
+| 15 | Design Challenge 2: BGR (Band Gap Reference) | Precision voltage reference design |
 
-| Lab | Topic | Key Focus / Design Challenge |
-|-----|-------|------------------------------|
-| 1   | Basic Amplifiers | Common-source amplifier, gain calculation, input/output resistance, verification with Ngspice |
-| 2   | CS Amplifier | Large signal analysis, voltage gain, frequency response |
-| 3   | Cascode Amplifier | Design for higher gain, pole-zero analysis, bandwidth optimization |
-| 4   | Differential Pair | Small-signal operation, differential gain, CM rejection ratio |
-| 5   | Current Mirrors | Simple & Wilson current mirrors, output resistance improvement |
-| 6   | CM Large Signal CCS | Parametric analysis, GBW vs Vicm, AC sweep simulations |
-| 7   | Source Degeneration | Gain linearity, input/output impedance effects |
-| 8   | Active Loads | Enhancement of amplifier gain using active load techniques |
-| 9   | Cascode with Degeneration | High-gain design with improved linearity |
-| 10  | Frequency Compensation | Miller compensation, stability in multistage amplifiers |
-| 11  | Design Challenge | Full analog circuit integration, optimization of gain, linearity, bandwidth, and power consumption |
+## Tools & Software
+- **Xschem** – Schematic capture and design  
+- **Ngspice** – Circuit simulation (AC, DC, transient, parametric)  
+- **ADT** – Advanced Design Tool for frequency and signal analysis  
 
-### Tools & Skills
-- Xschem, Ngspice, ADT
-- Analog circuit design: CS, CD, cascode, differential amplifiers
-- Frequency response, parametric sweeps, large-signal behavior
+## Key Skills Demonstrated
+- Analog amplifier design: CS, CD, cascode, differential, OTA  
+- MOSFET analysis and characterization  
+- Current mirror design (simple & wide-swing)  
+- Feedback and compensation techniques (Miller, negative feedback)  
+- Noise simulation and performance evaluation  
+- Integration of labs into projects and design challenges  
+
+## Repository Structure
